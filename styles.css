@@ -118,6 +118,12 @@ footer ul{
     list-style-type: none;
 }
 
+
+
+
+
+
+
   @media screen and (max-width: 767px){
     .section2{
         background-color: lightgrey;
@@ -138,9 +144,7 @@ footer ul{
         padding: 0;
         margin: 0;
     }
-    .uno h3{
 
-    }
     h3{
         margin-bottom: 0px;
         margin-left: 18%;
