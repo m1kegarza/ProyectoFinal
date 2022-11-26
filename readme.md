@@ -1,3 +1,5 @@
 - leer
 - teatro
 - parkour
+- skate 
+ 
