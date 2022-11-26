@@ -45,13 +45,55 @@ h2{
     padding: 20px;
 }
 
+.manejo{
+    padding: 150px;
+}
+
+.manejocontainer{
+    background-color: maroon;
+    border-radius: 20px;
+}
+
+.manejocontainer h2, p{
+    padding: 30px;
+    text-align: center;
+}
+
+.correo{
+    padding-right: 100px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.submit{
+    padding:20px;
+    margin-bottom: 30px;
+    margin-left: 80%;
+}
+
 footer{
+    background-color: rgb(71, 71, 71);
     color: gray;
+    padding: 50px;
 }
 
 footer a{
     color: gray;
     font-size: 12px;
+}
+
+#futer{
+    display: grid;
+    grid-template-columns: repeat(4, 26%);
+    margin: 10px;
+    text-align: center;
+    gap: 2;
+  }
+
+footer ul{
+    text-align: center;
+    list-style-type: none;
 }
 
   @media screen and (max-width: 767px){
@@ -75,5 +117,22 @@ footer a{
     }
     .catalogo{
         margin-left: 60%;
+    }
+    .manejo{
+        padding: 100px;
+    }
+    .correo{
+        padding-right: 25px;
+        margin-right: auto;
+    }
+    .submit{
+        margin-left: 65%;
+        margin-bottom: 5%;
+    }
+    #futer{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        text-align: center;
+        gap: 2;
     }
   }
