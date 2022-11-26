@@ -33,12 +33,25 @@ h2{
     gap: 2;
   }
 
+.catalogo{
+    margin-left: 75%;
+}
+
 .catalogo button{
     color: white;
     margin-bottom: 30px;
     background-color: maroon;
     border-style: none;
     padding: 20px;
+}
+
+footer{
+    color: gray;
+}
+
+footer a{
+    color: gray;
+    font-size: 12px;
 }
 
   @media screen and (max-width: 767px){
